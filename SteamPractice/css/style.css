@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s ease;
+}
+
+:root {
+  --main-color: #1b2838;
+  --back-color: #2a475e;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.4);
+}
+.html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+.heading {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 3.5rem;
+  border-bottom: 0.1rem solid #fff;
+}
+section {
+  padding: 3.5rem 7%;
+}
+body {
+  background-color: #2a475e;
+}
+/* header start  */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 20rem;
+  background-color: #1b2838;
+}
+.header .logo img {
+  height: 3rem;
+}
+.header .navbar a {
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.header .navbar a:hover {
+  color: #66c0f4;
+}
+.header .ustkose .separator,
+.header .ustkose a {
+  margin-left: 5px;
+  color: white;
+}
+.header .ustkose {
+  margin-top: -4rem;
+  justify-content: space-between;
+}
+
+.header .ustkose .btn {
+  background-color: rgb(21, 153, 21);
+  border-radius: 0rem;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  color: white;
+}
+
+/* header end  */
+
+.body {
+  background-color: #2a475e;
+  display: flex;
+}
+.side-body {
+  margin-top: 1rem;
+  margin-left: 20px;
+  width: 13%;
+  height: 50rem;
+  position: static;
+}
+
+.side-body .gift-card-panel .card-img img {
+  width: 5rem;
+}
+.side-body .side-panel-part {
+  margin-top: 1rem;
+}
+.side-body .title {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #508aac;
+}
+.side-body .sub-title {
+  color: #7b9aac;
+  display: block;
+}
+
+.middle-body {
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 10rem;
+  position: static;
+}
+/* menu start */
+.menu {
+  background-color: #66c0f4;
+  padding: 0;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  width: 65rem;
+  position: static;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 0.7rem;
+  color: white;
+}
+.menu a:hover {
+  background-color: #3d5c75;
+}
+.menu .search-box {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1b2838;
+}
+.menu .search-box:hover {
+  border-color: white;
+}
+.menu .search-input {
+  color: white;
+  padding: 10px 24px;
+  background-color: #66c0f4;
+}
+.menu .btn-primary {
+  cursor: pointer;
+  padding: 10px 12px;
+  background-color: #325e78;
+}
+
+/* menu end */
+
+.home-content-box {
+  display: flex;
+  position: relative;
+}
+/* home content */
+
+.home-content {
+  display: flex;
+}
+
+.home-content-box .arrow-left {
+  position: absolute;
+  left: -46px;
+  margin-top: 15%;
+}
+
+.home-content-box .arrow-right {
+  position: absolute;
+  right: -110px;
+  margin-top: 15%;
+}
+
+.home-content-box .home-content-footer{
+  position: absolute;
+  margin-left:37%;
+  bottom: -30px;
+  background-color: #3d5c75;
+  display: flex;
+  
+}
+.home-content-box .home-content-footer .page {
+  margin: 0 10px;
+  width: 12px;
+  height: 10px;
+  background-color: #508aac;
+}
+
+.home-content-box .arrow-icon {
+  font-size: 70px;
+  color: white;
+  background-color: #1b2838;
+}
+/* OKLAR ORTALANACAK */
+.home-content .screenshoot {
+  width: 100%;
+  bottom: 0;
+}
+.home-content .screenshoot img {
+  width: 616px;
+  height: 353px;
+}
+.home-content .info {
+  width: 100%;
+  background-color: #0c2a3b;
+  display: block;
+  bottom: 0;
+  height: 353px;
+}
+.home-content .info .app-name {
+  padding: 0 6px;
+  color: white;
+  display: flex;
+  font-size: 25px;
+  margin-top: 1rem;
+}
+.home-content .info .screenshoots {
+  margin-top: 1rem;
+  width: 344px;
+  max-height: 176px;
+  flex-wrap: wrap;
+  position: relative;
+  display: flex;
+}
+.home-content .info .screenshoots div {
+  width: fit-content;
+  padding: 10px 10px 0 0;
+}
+.home-content .info .screenshoots img {
+  width: 162px;
+  height: 69px;
+}
+
+.home-content .info .reason {
+  margin-top: 6px;
+  padding-left: 6px;
+}
+.home-content .info .reason .main-default {
+  font-size: 21px;
+  color: white;
+}
+
+.home-content .info .reason .additional {
+  margin-top: 5px;
+  font-size: 14px;
+  background-color: grey;
+  color: white;
+  display: inline-block;
+  border-radius: 2px;
+}
+.home-content .info .info-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 14%;
+}
+
+.home-content .info .info-footer .final-price {
+  color: white;
+}
+.home-content .info .info-footer span {
+  margin-left: 80%;
+  color: white;
+}
+/* home content */
